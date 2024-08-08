@@ -9,7 +9,7 @@
 h1,
 h2,
 h3 {
-  font-family: 'DM Serif Display', sans-serif;
+  font-family: "DM Serif Display", sans-serif;
   color: var(--text-color);
 }
 p,
@@ -20,7 +20,7 @@ button {
   color: var(--btn-text-color);
 }
 body {
-  font-family: 'Jost', sans-serif;
+  font-family: "Jost", sans-serif;
 }
 
 header {
@@ -420,7 +420,7 @@ header {
 }
 
 .statistics-item:not(:last-child)::after {
-  content: '';
+  content: "";
   position: absolute;
   right: 0;
   top: 50%;
@@ -604,9 +604,11 @@ header {
   line-height: 33px;
   letter-spacing: 0.22px;
 }
+
 .address-item {
   margin-bottom: 30px;
 }
+
 .address-link {
   font-size: 22px;
   font-weight: 400;
